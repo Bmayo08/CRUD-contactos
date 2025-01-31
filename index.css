@@ -1,0 +1,32 @@
+/* Hacer que el body use flexbox para distribuir el contenido */
+html, body {
+    height: 100%; /* Asegura que ocupe toda la pantalla */
+    flex-direction: column; /* El contenido se apila verticalmente */
+}
+
+main {
+    flex: 1; /* Ocupa todo el espacio disponible entre header y footer */
+}
+
+footer {
+    background-color: rgb(0, 102, 255);
+    color: white;
+    height: 150px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius:  10px 10px 0px 0px;
+    
+    
+}
+img {
+    height: 100px; 
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.btn i {
+    margin-left: 5px;
+}
+
